@@ -10,6 +10,7 @@
 	const AZALEATOWN_FRUIT_TREE
 	const AZALEATOWN_SILVER
 	const AZALEATOWN_AZALEA_ROCKET3
+	const AZALEATOWN_KURT_OUTSIDE
 
 AzaleaTown_MapScripts:
 	def_scene_scripts
