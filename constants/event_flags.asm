@@ -192,6 +192,15 @@
 	const EVENT_LAKE_OF_RAGE_HIDDEN_RARE_CANDY
 	const EVENT_LAKE_OF_RAGE_HIDDEN_MAX_POTION
 	const EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE
+	const_skip ; unused
+	const_skip ; unused
+	const EVENT_BUGGING_KURT_TOO_MUCH
+	const_skip ; unused
+	const_skip ; unused
+	const EVENT_CAN_GIVE_GS_BALL_TO_KURT
+	const EVENT_GAVE_GS_BALL_TO_KURT
+	const EVENT_FOREST_IS_RESTLESS
+	
 ; Unused: next 15 events
 
 	const_next 200
