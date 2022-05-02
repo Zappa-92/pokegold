@@ -13,6 +13,7 @@
 	const ILEXFOREST_BLACK_BELT
 	const ILEXFOREST_ROCKER
 	const ILEXFOREST_POKE_BALL
+	const ILEXFOREST_KURT
 
 IlexForest_MapScripts:
 	def_scene_scripts
