@@ -194,7 +194,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar LEVEL_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar LEVEL_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_RED_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -204,7 +204,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar LURE_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar LURE_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_BLU_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -214,7 +214,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar MOON_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar MOON_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_YLW_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -224,7 +224,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar FRIEND_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar FRIEND_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_GRN_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -234,7 +234,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar FAST_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar FAST_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_WHT_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -244,7 +244,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar HEAVY_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar HEAVY_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_BLK_APRICORN
 	sjump ._ThatTurnedOutGreat
@@ -254,7 +254,7 @@ Kurt1:
 	iftrue KurtMakingBallsScript
 	writetext KurtsHouseKurtJustFinishedYourBallText
 	promptbutton
-	verbosegiveitemvar LOVE_BALL, VAR_KURT_APRICORNS
+	verbosegiveitemvar LOVE_BALL
 	iffalse .NoRoomForBall
 	clearevent EVENT_GAVE_KURT_PNK_APRICORN
 	sjump ._ThatTurnedOutGreat
