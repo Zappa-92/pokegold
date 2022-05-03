@@ -2520,7 +2520,11 @@ wMountMoonSquareSceneID::                         db
 
 wEventFlags:: flag_array NUM_EVENTS
 
-wUnusedLinkCommunicationByte:: db
+wCelebiEvent::
+; bit 2: forest is restless
+	db
+
+	ds 1
 
 wGameTimerPaused::
 ; bit 7: game timer paused
@@ -2544,12 +2548,6 @@ wCurBox:: db
 wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
 
 	ds 2
-
-wCelebiEvent::
-; bit 2: forest is restless
-	db
-
-	ds 1
 
 wBikeFlags::
 ; bit 0: using strength
