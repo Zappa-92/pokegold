@@ -2545,6 +2545,12 @@ wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
 
 	ds 2
 
+wCelebiEvent::
+; bit 2: forest is restless
+	db
+
+	ds 1
+
 wBikeFlags::
 ; bit 0: using strength
 ; bit 1: always on bike
