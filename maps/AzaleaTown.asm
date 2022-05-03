@@ -165,8 +165,6 @@ AzaleaTownCelebiScene:
 	verbosegiveitem GS_BALL
 	turnobject AZALEATOWN_KURT_OUTSIDE, LEFT
 	setflag ENGINE_FOREST_IS_RESTLESS
-	clearevent EVENT_ILEX_FOREST_LASS
-	setevent EVENT_ROUTE_34_ILEX_FOREST_GATE_LASS
 	setscene SCENE_AZALEATOWN_NOTHING
 	closetext
 	end
