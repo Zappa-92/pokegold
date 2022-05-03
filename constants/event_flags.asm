@@ -1334,6 +1334,53 @@
 	const EVENT_ROUTE_15_PP_UP
 	const EVENT_ROUTE_25_PROTEIN
 ; Unused: next 116 events
-
+	const EVENT_KURTS_HOUSE_GRANDDAUGHTER_1
+	const EVENT_KURTS_HOUSE_GRANDDAUGHTER_2
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const EVENT_AZALEA_TOWN_KURT
+	const EVENT_ILEX_FOREST_KURT
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
+	const EVENT_WISE_TRIOS_ROOM_WISE_TRIO_2
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
+	const_skip ; unused
 	const_next 2048
 NUM_EVENTS EQU const_value ; 800
