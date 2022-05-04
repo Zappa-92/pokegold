@@ -891,10 +891,7 @@ wPlayerTurnsTaken:: db
 wPlayerSubstituteHP:: db
 wEnemySubstituteHP::  db
 
-wCelebiEvent::
-; bit 2: forest is restless
-	db
-
+wUnusedPlayerLockedMove:: db
 	ds 1
 
 wCurPlayerMove:: db
