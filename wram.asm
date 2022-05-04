@@ -2815,7 +2815,7 @@ SECTION "Stack", WRAMX
 
 	ds 2
 wStackBottom::
-	ds $fd
+	ds $fe
 wStackTop::
 	ds 1
 
