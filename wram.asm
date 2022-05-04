@@ -891,7 +891,10 @@ wPlayerTurnsTaken:: db
 wPlayerSubstituteHP:: db
 wEnemySubstituteHP::  db
 
-wUnusedPlayerLockedMove:: db
+wCelebiEvent::
+; bit 2: forest is restless
+	db
+
 	ds 1
 
 wCurPlayerMove:: db
@@ -2520,11 +2523,7 @@ wMountMoonSquareSceneID::                         db
 
 wEventFlags:: flag_array NUM_EVENTS
 
-wCelebiEvent::
-; bit 2: forest is restless
-	db
-
-	ds 1
+wUnusedLinkCommunicationByte:: db
 
 wGameTimerPaused::
 ; bit 7: game timer paused
@@ -2815,7 +2814,7 @@ SECTION "Stack", WRAMX
 
 	ds 2
 wStackBottom::
-	ds $fe
+	ds $fc
 wStackTop::
 	ds 1
 
