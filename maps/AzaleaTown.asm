@@ -10,13 +10,11 @@
 	const AZALEATOWN_FRUIT_TREE
 	const AZALEATOWN_SILVER
 	const AZALEATOWN_AZALEA_ROCKET3
-	const AZALEATOWN_KURT_OUTSIDE
 
 AzaleaTown_MapScripts:
 	def_scene_scripts
 	scene_script .DummyScene0 ; SCENE_AZALEATOWN_NOTHING
 	scene_script .DummyScene1 ; SCENE_AZALEATOWN_RIVAL_BATTLE
-	scene_script .DummyScene2 ; SCENE_AZALEATOWN_KURT_RETURNS_GS_BALL
 
 	def_callbacks
 	callback MAPCALLBACK_NEWMAP, .Flypoint
@@ -25,9 +23,6 @@ AzaleaTown_MapScripts:
 	end
 
 .DummyScene1:
-	end
-
-.DummyScene2:
 	end
 
 .Flypoint:
@@ -152,32 +147,6 @@ UnusedWoosterScript: ; unreferenced
 	closetext
 	end
 
-AzaleaTownCelebiScene:
-	applymovement PLAYER, AzaleaTownPlayerLeavesKurtsHouseMovement
-	opentext
-	writetext AzaleaTownKurtText1
-	promptbutton
-	turnobject AZALEATOWN_KURT_OUTSIDE, RIGHT
-	writetext AzaleaTownKurtText2
-	promptbutton
-	writetext AzaleaTownKurtText3
-	waitbutton
-	verbosegiveitem GS_BALL
-	turnobject AZALEATOWN_KURT_OUTSIDE, LEFT
-	setflag ENGINE_FOREST_IS_RESTLESS
-	setscene SCENE_AZALEATOWN_NOTHING
-	closetext
-	end
-
-AzaleaTownKurtScript:
-	faceplayer
-	opentext
-	writetext AzaleaTownKurtText3
-	waitbutton
-	turnobject AZALEATOWN_KURT_OUTSIDE, LEFT
-	closetext
-	end
-
 AzaleaTownSign:
 	jumptext AzaleaTownSignText
 
@@ -232,13 +201,6 @@ AzaleaTownRivalBattleExitMovement:
 	step LEFT
 	step LEFT
 	step LEFT
-	step_end
-
-AzaleaTownPlayerLeavesKurtsHouseMovement:
-	step LEFT
-	step LEFT
-	step UP
-	turn_head LEFT
 	step_end
 
 AzaleaTownRivalBeforeText:
@@ -382,24 +344,6 @@ WoosterText:
 	text "WOOSTER: Gugyoo…"
 	done
 
-AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
-
-	para "What is going on?"
-	done
-
-AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
-	done
-
-AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
-	done
-
 AzaleaTownSignText:
 	text "AZALEA TOWN"
 	line "Where People and"
@@ -466,7 +410,6 @@ AzaleaTown_MapEvents:
 	def_coord_events
 	coord_event  5, 10, SCENE_AZALEATOWN_RIVAL_BATTLE, AzaleaTownRivalBattleScene1
 	coord_event  5, 11, SCENE_AZALEATOWN_RIVAL_BATTLE, AzaleaTownRivalBattleScene2
-	coord_event  9,  6, SCENE_AZALEATOWN_KURT_RETURNS_GS_BALL, AzaleaTownCelebiScene
 
 	def_bg_events
 	bg_event 19,  9, BGEVENT_READ, AzaleaTownSign
@@ -491,4 +434,3 @@ AzaleaTown_MapEvents:
 	object_event  8,  2, SPRITE_FRUIT_TREE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, WhiteApricornTree, -1
 	object_event 11, 10, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_RIVAL_AZALEA_TOWN
 	object_event 10, 16, SPRITE_AZALEA_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownRocket2Script, EVENT_SLOWPOKE_WELL_ROCKETS
-	object_event  6,  5, SPRITE_KURT_OUTSIDE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, AzaleaTownKurtScript, EVENT_AZALEA_TOWN_KURT
