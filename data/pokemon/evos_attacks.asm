@@ -842,6 +842,7 @@ AbraEvosAttacks:
 KadabraEvosAttacks:
 	db EVOLVE_TRADE, -1, ALAKAZAM
 	db EVOLVE_LEVEL, 40, ALAKAZAM
+	db 0 ; no more evolutions
 	db 1, TELEPORT
 	db 1, KINESIS
 	db 1, CONFUSION
@@ -886,6 +887,7 @@ MachopEvosAttacks:
 MachokeEvosAttacks:
 	db EVOLVE_TRADE, -1, MACHAMP
 	db EVOLVE_LEVEL, 40, MACHAMP
+	db 0 ; no more evolutions
 	db 1, LOW_KICK
 	db 1, LEER
 	db 1, FOCUS_ENERGY
@@ -999,6 +1001,7 @@ GeodudeEvosAttacks:
 GravelerEvosAttacks:
 	db EVOLVE_TRADE, -1, GOLEM
 	db EVOLVE_LEVEL, 40, GOLEM
+	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, DEFENSE_CURL
 	db 1, ROCK_THROW
@@ -1683,7 +1686,7 @@ ScytherEvosAttacks:
 	db 32, SLASH
 	db 35, SWORDS_DANCE
 	db 40, SCYTHE_SWORD
-	db 48, DOUBLE_TEAM
+	db 46, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
 JynxEvosAttacks:
@@ -2852,11 +2855,11 @@ ScizorEvosAttacks:
 	db 12, PURSUIT
 	db 18, FALSE_SWIPE
 	db 24, AGILITY
-	db 30, METAL_CLAW
-	db 36, SLASH
-	db 42, SWORDS_DANCE
-	db 46, SCYTHE_SWORD
-	db 50, DOUBLE_TEAM
+	db 28, METAL_CLAW
+	db 32, SLASH
+	db 35, SWORDS_DANCE
+	db 40, SCYTHE_SWORD
+	db 46, DOUBLE_TEAM
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:
