@@ -4,7 +4,7 @@ TypeNames:
 	dw Normal
 	dw Fighting
 	dw Flying
-	dw Poison
+	dw Dark
 	dw Ground
 	dw Rock
 	dw Bird
@@ -30,7 +30,7 @@ TypeNames:
 	dw Psychic
 	dw Ice
 	dw Ghost
-	dw Dark
+	dw Poison
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"
