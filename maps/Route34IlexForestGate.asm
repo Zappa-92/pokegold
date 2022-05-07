@@ -7,8 +7,7 @@ Route34IlexForestGate_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	
-callback MAPCALLBACK_OBJECTS, .IsForestRestless
+	callback MAPCALLBACK_OBJECTS, .IsForestRestless
 
 .IsForestRestless:
 	checkevent EVENT_FOREST_IS_RESTLESS
