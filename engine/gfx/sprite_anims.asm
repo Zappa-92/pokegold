@@ -56,6 +56,7 @@ DoAnimFrame:
 	dw AnimSeq_FlyLeaf
 	dw AnimSeq_FlyTo
 	dw AnimSeq_GSIntroHoOhLugia
+	dw AnimSeq_Celebi
 	assert_table_length NUM_SPRITE_ANIM_SEQS
 
 AnimSeq_Null:
@@ -1447,6 +1448,10 @@ AnimSeq_FlyTo:
 	ld [hl], a
 	ret
 
+AnimSeq_Celebi:
+	farcall UpdateCelebiPosition
+	ret
+	
 AnimSeqs_AnonJumptable:
 	ld hl, sp+0
 	ld e, [hl]
