@@ -53,4 +53,4 @@ TinTower1F_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event 10,  2, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTowerSageScript, EVENT_GOT_RAINBOW_WING
+	object_event 10,  2, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, TinTowerSageScript, EVENT_CLEARED_RADIO_TOWER
