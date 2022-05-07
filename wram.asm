@@ -2371,11 +2371,11 @@ ENDU
 
 wCmdQueue:: ds CMDQUEUE_CAPACITY * CMDQUEUE_ENTRY_SIZE
 
-	ds 40
+	ds 6
 
 wMapObjects::
 wPlayerObject:: map_object wPlayer ; player is map object 0
-; wMap1Object - wMap15Object
+; wMap1Object - wMap17Object
 for n, 1, NUM_OBJECTS
 wMap{d:n}Object:: map_object wMap{d:n}
 endr
@@ -2488,6 +2488,7 @@ wRoute36NationalParkGateSceneID::                 db
 wAzaleaTownSceneID::                              db
 wGoldenrodGymSceneID::                            db
 wGoldenrodMagnetTrainStationSceneID::             db
+wGoldenrodPokecenter1FSceneID::                   db
 wOlivineCitySceneID::                             db
 wRoute34SceneID::                                 db
 wEcruteakTinTowerEntranceSceneID::                db
@@ -2516,7 +2517,7 @@ wFastShip1FSceneID::                              db
 wFastShipB1FSceneID::                             db
 wMountMoonSquareSceneID::                         db
 
-	ds 197
+	ds 196
 
 wEventFlags:: flag_array NUM_EVENTS
 
@@ -2543,7 +2544,11 @@ wCurBox:: db
 
 wBoxNames:: ds BOX_NAME_LENGTH * NUM_BOXES
 
-	ds 2
+wCelebiEvent::
+; bit 2: forest is restless
+	db
+
+	ds 1
 
 wBikeFlags::
 ; bit 0: using strength
