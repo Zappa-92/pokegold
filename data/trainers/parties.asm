@@ -2695,9 +2695,9 @@ PicnickerGroup:
 
 	; PICNICKER (15)
 	db "GINA@", TRAINERTYPE_NORMAL
-	db 37, MEGANIUM
-	db 37, JUMPLUFF
-	db 37, VENUSAUR
+	db 60, MEGANIUM
+	db 60, JUMPLUFF
+	db 60, VENUSAUR
 	db -1 ; end
 
 	; PICNICKER (16)
