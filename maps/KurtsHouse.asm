@@ -93,7 +93,7 @@ Kurt1:
 	iftrue .GiveHeavyBall
 	checkevent EVENT_GAVE_KURT_PNK_APRICORN
 	iftrue .GiveLoveBall
-	checkevent EVENT_KURT_GAVE_YOU_LURE_BALL
+	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iftrue .CanGiveGSBallToKurt
 	writetext KurtsHouseKurtBallsFromApricornsText
 	promptbutton
