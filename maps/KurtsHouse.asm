@@ -96,6 +96,7 @@ Kurt1:
 	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iftrue .CanGiveGSBallToKurt
 	writetext KurtsHouseKurtBallsFromApricornsText
+	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	promptbutton
 	checkitem RED_APRICORN
 	iftrue .AskApricorn
