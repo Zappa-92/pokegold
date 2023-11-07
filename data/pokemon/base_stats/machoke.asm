@@ -1,6 +1,6 @@
 	db MACHOKE ; 067
 
-	db  85, 100,  80,  45,  50,  80
+	db  85, 100,  80,  45,  50,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIGHTING, FIGHTING ; type
