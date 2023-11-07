@@ -1,6 +1,6 @@
 	db LEDYBA ; 165
 
-	db  55,  30,  35,  55,  45,  80
+	db  55,  30,  45,  55,  40,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, FLYING ; type
