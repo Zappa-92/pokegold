@@ -1,6 +1,6 @@
 	db CYNDAQUIL ; 155
 
-	db  39,  52,  43,  65,  60,  50
+	db  44,  52,  48,  65,  60,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
