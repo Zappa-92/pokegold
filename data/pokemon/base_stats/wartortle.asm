@@ -1,6 +1,6 @@
 	db WARTORTLE ; 008
 
-	db  59,  63,  80,  58,  65,  80
+	db  69,  63,  85,  58,  75,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
