@@ -1,6 +1,6 @@
 	db GASTLY ; 092
 
-	db  30,  35,  30,  80, 100,  35
+	db  50,  30,  40,  80, 90,  55
 	;   hp  atk  def  spd  sat  sdf
 
 	db GHOST, GHOST ; type
