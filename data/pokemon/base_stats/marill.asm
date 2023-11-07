@@ -1,6 +1,6 @@
 	db MARILL ; 183
 
-	db  70,  20,  50,  40,  20,  50
+	db  75,  25,  65,  40,  65,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db WATER, WATER ; type
