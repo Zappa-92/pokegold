@@ -428,7 +428,6 @@ LarvitarBackpic:     INCBIN "gfx/pokemon/larvitar/back.2bpp.lz"
 SunkernBackpic:      INCBIN "gfx/pokemon/sunkern/back.2bpp.lz"
 PorygonBackpic:      INCBIN "gfx/pokemon/porygon/back.2bpp.lz"
 ClefairyFrontpic:    INCBIN "gfx/pokemon/clefairy/front_gold.2bpp.lz"
-BulbasaurBackpic:    INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
 
 
 SECTION "Pics 10", ROMX
@@ -565,7 +564,6 @@ CaterpieFrontpic:    INCBIN "gfx/pokemon/caterpie/front_gold.2bpp.lz"
 UnownHBackpic:       INCBIN "gfx/pokemon/unown_h/back.2bpp.lz"
 GolbatBackpic:       INCBIN "gfx/pokemon/golbat/back.2bpp.lz"
 UnownGFrontpic:      INCBIN "gfx/pokemon/unown_g/front.2bpp.lz"
-UnownVBackpic:       INCBIN "gfx/pokemon/unown_v/back.2bpp.lz"
 
 
 SECTION "Pics 12", ROMX
@@ -636,6 +634,8 @@ PokefanmPic:         INCBIN "gfx/trainers/pokefan_m.2bpp.lz"
 BoarderPic:          INCBIN "gfx/trainers/boarder.2bpp.lz"
 UrsaringFrontpic:    INCBIN "gfx/pokemon/ursaring/front_gold.2bpp.lz"
 MachampBackpic:      INCBIN "gfx/pokemon/machamp/back.2bpp.lz"
+BulbasaurBackpic:    INCBIN "gfx/pokemon/bulbasaur/back.2bpp.lz"
+UnownVBackpic:       INCBIN "gfx/pokemon/unown_v/back.2bpp.lz"
 
 
 SECTION "Pics 14", ROMX
