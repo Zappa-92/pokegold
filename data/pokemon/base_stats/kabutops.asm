@@ -1,6 +1,6 @@
 	db KABUTOPS ; 141
 
-	db  60, 115, 105,  80,  65,  70
+	db  80, 115, 105,  80,  80,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db ROCK, WATER ; type
