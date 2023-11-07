@@ -1,6 +1,6 @@
 	db SWINUB ; 220
 
-	db  50,  50,  40,  50,  30,  30
+	db  55,  50,  55,  50,  40,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db ICE, GROUND ; type
