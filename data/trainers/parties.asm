@@ -348,7 +348,7 @@ ErikaGroup:
 YoungsterGroup:
 	; YOUNGSTER (1)
 	db "JOEY@", TRAINERTYPE_NORMAL
-	db  8, RATTATA
+	db  9, IGGLYBUFF
 	db -1 ; end
 
 	; YOUNGSTER (2)
@@ -1093,7 +1093,7 @@ BeautyGroup:
 	; BEAUTY (16)
 	db "VALERIE@", TRAINERTYPE_NORMAL
 	db 24, LARVITAR
-	db 24, PARAS
+	db 24, EXEGGCUTE
 	db -1 ; end
 
 PokemaniacGroup:
@@ -1186,7 +1186,7 @@ GruntMGroup:
 
 	; GRUNTM (3)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 31, RATICATE
+	db 31, QUILAVA
 	db 31, HOUNDOUR
 	db -1 ; end
 
@@ -1543,7 +1543,7 @@ FisherGroup:
 	; FISHER (4)
 	db "KYLE@", TRAINERTYPE_NORMAL
 	db 36, SEAKING
-	db 40, POLIWHIRL
+	db 40, POLITOED
 	db 40, OCTILLERY
 	db -1 ; end
 
