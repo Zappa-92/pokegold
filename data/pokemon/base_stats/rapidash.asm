@@ -1,6 +1,6 @@
 	db RAPIDASH ; 078
 
-	db  90, 100,  85, 105,  90,  90
+	db  90, 95,  85, 105,  90,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
