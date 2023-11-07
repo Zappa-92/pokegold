@@ -143,7 +143,7 @@ Now you're ready to [build **pokegold**](#build-pokegold).
 To download the **pokegold** source files:
 
 ```bash
-git clone https://github.com/pret/pokegold
+git clone https://github.com/Zappa-92/pokegold
 cd pokegold
 ```
 
