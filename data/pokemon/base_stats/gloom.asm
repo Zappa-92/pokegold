@@ -1,6 +1,6 @@
 	db GLOOM ; 044
 
-	db  60,  65,  70,  40,  85,  75
+	db  75,  65,  75,  40,  85,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db GRASS, POISON ; type
