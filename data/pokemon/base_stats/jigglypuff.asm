@@ -1,6 +1,6 @@
 	db JIGGLYPUFF ; 039
 
-	db 115,  45,  20,  20,  45,  25
+	db 115,  55,  40,  25,  45,  45
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, NORMAL ; type
