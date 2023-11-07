@@ -1,6 +1,6 @@
 	db MAGBY ; 240
 
-	db  45,  75,  37,  83,  70,  55
+	db  65,  75,  47,  83,  75,  65
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIRE ; type
