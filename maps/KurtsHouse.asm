@@ -73,6 +73,7 @@ Kurt1:
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
 	iftrue .GotLureBall
 	writetext KurtsHouseKurtBallsFromApricornsText
+	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	waitbutton
 
 .GotLureBall:
