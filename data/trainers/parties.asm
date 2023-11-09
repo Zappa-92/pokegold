@@ -658,8 +658,8 @@ LassGroup:
 	; LASS (2)
 	db "BRIDGET@", TRAINERTYPE_NORMAL
 	db 21, JIGGLYPUFF
-	db 21, TANGELA
-	db 21, KRABBY
+	db 21, EEVEE
+	db 21, TEDDIURSA
 	db -1 ; end
 
 	; LASS (3)
@@ -1010,8 +1010,8 @@ BeautyGroup:
 	; BEAUTY (1)
 	db "VICTORIA@", TRAINERTYPE_NORMAL
 	db 15, SENTRET
-	db 19, SENTRET
-	db 24, SENTRET
+	db 19, RATTATA
+	db 24, DITTO
 	db -1 ; end
 
 	; BEAUTY (2)
