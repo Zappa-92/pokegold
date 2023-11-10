@@ -35,7 +35,6 @@ Kurt1:
 	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iftrue .ClearedSlowpokeWell
 	writetext KurtsHouseKurtMakingBallsMustWaitText
-	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	waitbutton
 	closetext
 	special FadeOutMusic
@@ -74,6 +73,7 @@ Kurt1:
 	iftrue .GotLureBall
 	writetext KurtsHouseKurtBallsFromApricornsText
 	writetext KurtsHouseKurtAskYouHaveAnApricornText
+	promptbutton
 	waitbutton
 
 .GotLureBall:
