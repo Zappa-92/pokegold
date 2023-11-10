@@ -71,9 +71,6 @@ Kurt1:
 	iftrue .GotLureBall
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_3
 	iftrue .GotLureBall
-	writetext KurtsHouseKurtBallsFromApricornsText
-	writetext KurtsHouseKurtAskYouHaveAnApricornText
-	promptbutton
 	waitbutton
 
 .GotLureBall:
@@ -98,7 +95,6 @@ Kurt1:
 	checkevent EVENT_CLEARED_SLOWPOKE_WELL
 	iftrue .CanGiveGSBallToKurt
 	writetext KurtsHouseKurtBallsFromApricornsText
-	writetext KurtsHouseKurtAskYouHaveAnApricornText
 	promptbutton
 	checkitem RED_APRICORN
 	iftrue .AskApricorn
