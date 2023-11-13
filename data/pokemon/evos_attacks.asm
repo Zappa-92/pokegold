@@ -878,10 +878,10 @@ MachopEvosAttacks:
 	db 13, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
-	db 31, VITAL_THROW
-	db 37, CROSS_CHOP
-	db 43, SCARY_FACE
-	db 49, SUBMISSION
+	db 28, VITAL_THROW
+	db 35, SUBMISSION
+	db 41, SCARY_FACE
+	db 46, CROSS_CHOP
 	db 0 ; no more level-up moves
 
 MachokeEvosAttacks:
@@ -895,10 +895,10 @@ MachokeEvosAttacks:
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
 	db 25, FORESIGHT
-	db 34, VITAL_THROW
-	db 43, CROSS_CHOP
-	db 52, SCARY_FACE
-	db 61, SUBMISSION
+	db 31, VITAL_THROW
+	db 39, SUBMISSION
+	db 46, SCARY_FACE
+	db 52, CROSS_CHOP
 	db 0 ; no more level-up moves
 
 MachampEvosAttacks:
@@ -909,11 +909,11 @@ MachampEvosAttacks:
 	db 8, FOCUS_ENERGY
 	db 15, KARATE_CHOP
 	db 19, SEISMIC_TOSS
-	db 25, FORESIGHT
+	db 28, FORESIGHT
 	db 34, VITAL_THROW
-	db 46, CROSS_CHOP
-	db 56, SCARY_FACE
-	db 65, SUBMISSION
+	db 42, SUBMISSION
+	db 50, SCARY_FACE
+	db 56, CROSS_CHOP
 	db 0 ; no more level-up moves
 
 BellsproutEvosAttacks:
@@ -2447,7 +2447,7 @@ MareepEvosAttacks:
 	db 16, THUNDER_WAVE
 	db 23, COTTON_SPORE
 	db 28, LIGHT_SCREEN
-	db 35, THUNDER
+	db 34, THUNDER
 	db 0 ; no more level-up moves
 
 FlaaffyEvosAttacks:
@@ -2459,8 +2459,8 @@ FlaaffyEvosAttacks:
 	db 9, THUNDERSHOCK
 	db 18, THUNDER_WAVE
 	db 26, COTTON_SPORE
-	db 32, LIGHT_SCREEN
-	db 40, THUNDER
+	db 31, LIGHT_SCREEN
+	db 37, THUNDER
 	db 0 ; no more level-up moves
 
 AmpharosEvosAttacks:
@@ -2473,8 +2473,8 @@ AmpharosEvosAttacks:
 	db 18, THUNDER_WAVE
 	db 27, COTTON_SPORE
 	db 30, THUNDERPUNCH
-	db 37, LIGHT_SCREEN
-	db 47, THUNDER
+	db 35, LIGHT_SCREEN
+	db 41, THUNDER
 	db 0 ; no more level-up moves
 
 BellossomEvosAttacks:
