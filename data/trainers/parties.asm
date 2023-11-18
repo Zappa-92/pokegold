@@ -575,8 +575,8 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (7)
 	db "VANCE@", TRAINERTYPE_NORMAL
-	db 34, PIDGEOTTO
-	db 34, CROBAT
+	db 40, PIDGEOT
+	db 42, CROBAT
 	db -1 ; end
 
 	; BIRD_KEEPER (8)
