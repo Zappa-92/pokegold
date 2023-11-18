@@ -2499,7 +2499,7 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (8)
 	db "KENJI@", TRAINERTYPE_NORMAL
-	db 36, HITMONTOP
+	db 45, HITMONTOP
 	db -1 ; end
 
 	; BLACKBELT_T (9)
