@@ -1173,8 +1173,8 @@ PokemaniacGroup:
 GruntMGroup:
 	; GRUNTM (1)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 20, KOFFING
-	db 20, SHELLDER
+	db 22, KOFFING
+	db 22, SHELLDER
 	db -1 ; end
 
 	; GRUNTM (2)
@@ -1272,41 +1272,41 @@ GruntMGroup:
 
 	; GRUNTM (16)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 22, CHIKORITA
-	db 22, CHINCHOU
-	db 22, UNOWN
-	db 22, RATTATA
+	db 27, BAYLEEF
+	db 26, CHINCHOU
+	db 26, UNOWN
+	db 26, CORSOLA
 	db -1 ; end
 
 	; GRUNTM (17)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, UMBREON
+	db 35, UMBREON
 	db -1 ; end
 
 	; GRUNTM (18)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, NATU
-	db 24, ZUBAT
-	db 24, SLUGMA
+	db 28, NATU
+	db 31, GOLBAT
+	db 29, SLUGMA
 	db -1 ; end
 
 	; GRUNTM (19)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 25, VENONAT
-	db 25, DROWZEE
+	db 28, VENONAT
+	db 28, DROWZEE
 	db -1 ; end
 
 	; GRUNTM (20)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 24, KADABRA
-	db 26, MARILL
+	db 27, KADABRA
+	db 29, MARILL
 	db -1 ; end
 
 	; GRUNTM (21)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 23, CHARMANDER
-	db 24, GRIMER
-	db 25, BEEDRILL
+	db 28, CHARMELEON
+	db 32, GRIMER
+	db 31, BEEDRILL
 	db -1 ; end
 
 	; GRUNTM (22)
@@ -1345,7 +1345,7 @@ GruntMGroup:
 
 	; GRUNTM (28)
 	db "GRUNT@", TRAINERTYPE_NORMAL
-	db 19, RATICATE
+	db 29, RATICATE
 	db -1 ; end
 
 	; GRUNTM (29)
@@ -2534,9 +2534,9 @@ ExecutiveMGroup:
 
 	; EXECUTIVEM (4)
 	db "EXECUTIVE@", TRAINERTYPE_NORMAL
-	db 29, GOLBAT
-	db 31, RATICATE
-	db 29, TANGELA
+	db 39, GOLBAT
+	db 41, HERACROSS
+	db 39, TANGELA
 	db -1 ; end
 
 PsychicGroup:
