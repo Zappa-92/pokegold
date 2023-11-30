@@ -2208,11 +2208,11 @@ HikerGroup:
 
 	; HIKER (11)
 	db "BAILEY@", TRAINERTYPE_NORMAL
-	db 20, GEODUDE
-	db 20, SKIPLOOM
-	db 20, RHYHORN
-	db 22, STEELIX
-	db 24, LARVITAR
+	db 40, GRAVELER
+	db 40, SKIPLOOM
+	db 40, RHYDON
+	db 42, STEELIX
+	db 44, PUPITAR
 	db -1 ; end
 
 	; HIKER (12)
