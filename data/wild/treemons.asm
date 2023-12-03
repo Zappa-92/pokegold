@@ -36,60 +36,60 @@ TreeMonSet_Forest:
 
 IF DEF(_GOLD)
 ; common
-	db 50, CATERPIE,   15
-	db 15, CATERPIE,   15
-	db 15, METAPOD,    15
-	db 10, EXEGGCUTE,  15
-	db  5, EXEGGCUTE,  15
-	db  5, BUTTERFREE, 15
+	db 50, CATERPIE,   21
+	db 15, CATERPIE,   21
+	db 15, METAPOD,    21
+	db 10, EXEGGCUTE,  21
+	db  5, EXEGGCUTE,  21
+	db  5, BUTTERFREE, 21
 	db -1
 ; rare
-	db 50, CATERPIE,   15
-	db 15, PINECO,     15
-	db 15, PINECO,     15
-	db 10, EXEGGCUTE,  15
-	db  5, EXEGGCUTE,  15
-	db  5, BUTTERFREE, 15
+	db 50, CATERPIE,   21
+	db 15, PINECO,     21
+	db 15, PINECO,     21
+	db 10, EXEGGCUTE,  21
+	db  5, EXEGGCUTE,  21
+	db  5, BUTTERFREE, 21
 	db -1
 
 ELIF DEF(_SILVER)
 ; common
-	db 50, WEEDLE,     15
-	db 15, WEEDLE,     15
-	db 15, KAKUNA,     15
-	db 10, EXEGGCUTE,  15
-	db  5, EXEGGCUTE,  15
-	db  5, BEEDRILL,   15
+	db 50, WEEDLE,     21
+	db 15, WEEDLE,     21
+	db 15, KAKUNA,     21
+	db 10, EXEGGCUTE,  21
+	db  5, EXEGGCUTE,  21
+	db  5, BEEDRILL,   21
 	db -1
 ; rare
-	db 50, WEEDLE,     15
-	db 15, PINECO,     15
-	db 15, PINECO,     15
-	db 10, EXEGGCUTE,  15
-	db  5, EXEGGCUTE,  15
-	db  5, BEEDRILL,   15
+	db 50, WEEDLE,     21
+	db 15, PINECO,     21
+	db 15, PINECO,     21
+	db 10, EXEGGCUTE,  21
+	db  5, EXEGGCUTE,  21
+	db  5, BEEDRILL,   21
 	db -1
 ENDC
 
 TreeMonSet_Canyon:
 ; common
-	db 50, SPEAROW,    15
-	db 15, SPEAROW,    15
-	db 15, SPEAROW,    15
-	db 10, AIPOM,      15
-	db  5, AIPOM,      15
-	db  5, AIPOM,      15
+	db 50, SPEAROW,    20
+	db 15, SPEAROW,    20
+	db 15, SPEAROW,    20
+	db 10, AIPOM,      20
+	db  5, AIPOM,      20
+	db  5, AIPOM,      20
 	db -1
 ; rare
-	db 50, SPEAROW,    15
-	db 15, HERACROSS,  15
-	db 15, HERACROSS,  15
-	db 10, AIPOM,      15
-	db  5, AIPOM,      15
-	db  5, AIPOM,      15
+	db 50, SPEAROW,    20
+	db 15, HERACROSS,  20
+	db 15, HERACROSS,  20
+	db 10, AIPOM,      20
+	db  5, AIPOM,      20
+	db  5, AIPOM,      20
 	db -1
 
 TreeMonSet_Rock:
-	db 90, KRABBY,     21
-	db 10, SHUCKLE,    21
+	db 90, KRABBY,     31
+	db 10, SHUCKLE,    31
 	db -1
