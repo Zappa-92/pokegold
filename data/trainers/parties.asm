@@ -2417,10 +2417,10 @@ FirebreatherGroup:
 JugglerGroup:
 	; JUGGLER (1)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 10, GASTLY
-	db 13, VOLTORB
-	db 16, CUBONE
-	db 20, VOLTORB
+	db 18, GASTLY
+	db 21, VOLTORB
+	db 22, CUBONE
+	db 24, VOLTORB
 	db -1 ; end
 
 	; JUGGLER (2)
@@ -2440,18 +2440,18 @@ JugglerGroup:
 
 	; JUGGLER (4)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 19, GASTLY
-	db 20, VOLTORB
-	db 22, CUBONE
+	db 24, GASTLY
 	db 26, VOLTORB
+	db 27, CUBONE
+	db 30, VOLTORB
 	db -1 ; end
 
 	; JUGGLER (5)
 	db "IRWIN@", TRAINERTYPE_NORMAL
-	db 29, HAUNTER
-	db 30, ELECTRODE
-	db 33, MAROWAK
-	db 39, ELECTRODE
+	db 35, HAUNTER
+	db 36, ELECTRODE
+	db 36, MAROWAK
+	db 40, ELECTRODE
 	db -1 ; end
 
 BlackbeltGroup:
@@ -2668,8 +2668,8 @@ PicnickerGroup:
 
 	; PICNICKER (10)
 	db "ERIN@", TRAINERTYPE_NORMAL
-	db 23, PONYTA
-	db 23, PONYTA
+	db 33, PONYTA
+	db 33, CHARMELEON
 	db -1 ; end
 
 	; PICNICKER (11)
@@ -2716,8 +2716,8 @@ PicnickerGroup:
 
 	; PICNICKER (18)
 	db "ERIN@", TRAINERTYPE_NORMAL
-	db 39, PONYTA
-	db 39, RAPIDASH
+	db 44, RAPIDASH
+	db 44, CHARIZARD
 	db -1 ; end
 
 	; PICNICKER (19)
@@ -2732,8 +2732,8 @@ PicnickerGroup:
 
 	; PICNICKER (21)
 	db "ERIN@", TRAINERTYPE_NORMAL
-	db 45, RAPIDASH
-	db 45, RAPIDASH
+	db 55, RAPIDASH
+	db 55, RAPIDASH
 	db -1 ; end
 
 CamperGroup:
@@ -2795,7 +2795,7 @@ CamperGroup:
 
 	; CAMPER (11)
 	db "TED@", TRAINERTYPE_NORMAL
-	db 24, MANKEY
+	db 34, PRIMEAPE
 	db -1 ; end
 
 	; CAMPER (12)
