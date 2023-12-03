@@ -1563,7 +1563,7 @@ FisherGroup:
 
 	; FISHER (7)
 	db "CHRIS@", TRAINERTYPE_NORMAL
-	db 26, QWILFISH
+	db 36, QWILFISH
 	db -1 ; end
 
 	; FISHER (8)
@@ -1634,14 +1634,16 @@ FisherGroup:
 
 	; FISHER (18)
 	db "CHRIS@", TRAINERTYPE_NORMAL
-	db 34, KABUTO
+	db 40, KABUTO
+	db 44, QWILFISH
 	db -1 ; end
 
 	; FISHER (19)
 	db "CHRIS@", TRAINERTYPE_NORMAL
-	db 58, GYARADOS
-	db 62, SEAKING
-	db 64, QWILFISH
+	db 55, GYARADOS
+	db 58, SEAKING
+	db 57, KABUTOPS
+	db 59, QWILFISH
 	db -1 ; end
 
 	; FISHER (20)
