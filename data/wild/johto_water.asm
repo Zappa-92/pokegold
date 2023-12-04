@@ -13,21 +13,21 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	db 21, WOOPER
 	db 28, QUAGSIRE
-	db 21, QUAGSIRE
+	db 21, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B1F
 	db 2 percent ; encounter rate
 	db 21, WOOPER
 	db 28, QUAGSIRE
-	db 21, QUAGSIRE
+	db 21, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons UNION_CAVE_B2F
 	db 4 percent ; encounter rate
 	db 21, TENTACOOL
 	db 28, QUAGSIRE
-	db 21, TENTACRUEL
+	db 21, CHINCHOU
 	end_water_wildmons
 
 	def_water_wildmons SLOWPOKE_WELL_B1F
@@ -72,7 +72,7 @@ JohtoWaterWildMons:
 	def_water_wildmons MOUNT_MORTAR_B1F
 	db 2 percent ; encounter rate
 	db 28, GOLDEEN
-	db 21, GOLDEEN
+	db 21, CHINCHOU
 	db 28, SEAKING
 	end_water_wildmons
 
