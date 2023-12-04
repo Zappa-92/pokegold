@@ -1380,7 +1380,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (3)
 	db "GREGORY@", TRAINERTYPE_NORMAL
-	db 47, PIKACHU
+	db 51, PIKACHU
 	db 47, DEWGONG
 	db -1 ; end
 
@@ -1951,8 +1951,8 @@ SailorGroup:
 
 	; SAILOR (6)
 	db "JEFF@", TRAINERTYPE_NORMAL
-	db 40, KINGLER
-	db 40, RATICATE
+	db 46, KINGLER
+	db 45, RATICATE
 	db -1 ; end
 
 	; SAILOR (7)
@@ -1971,9 +1971,9 @@ SailorGroup:
 
 	; SAILOR (9)
 	db "STANLY@", TRAINERTYPE_NORMAL
-	db 39, MACHOKE
-	db 42, MACHAMP
-	db 35, GOLDUCK
+	db 46, MACHOKE
+	db 44, MACHAMP
+	db 45, GOLDUCK
 	db -1 ; end
 
 	; SAILOR (10)
@@ -2137,10 +2137,10 @@ GuitaristGroup:
 
 	; GUITARIST (2)
 	db "VINCENT@", TRAINERTYPE_NORMAL
-	db 34, MAGNETON
-	db 43, HOUNDOOM
-	db 41, HERACROSS
-	db 41, HITMONTOP
+	db 43, MAGNETON
+	db 47, HOUNDOOM
+	db 45, HERACROSS
+	db 45, HITMONTOP
 	db -1 ; end
 
 HikerGroup:
@@ -2233,8 +2233,8 @@ HikerGroup:
 
 	; HIKER (14)
 	db "NOLAND@", TRAINERTYPE_NORMAL
-	db 39, SANDSLASH
-	db 42, GOLEM
+	db 45, SANDSLASH
+	db 47, GOLEM
 	db -1 ; end
 
 	; HIKER (15)
@@ -2409,9 +2409,9 @@ FirebreatherGroup:
 
 	; FIREBREATHER (8)
 	db "LYLE@", TRAINERTYPE_NORMAL
-	db 36, KOFFING
-	db 39, FLAREON
-	db 36, RAPIDASH
+	db 46, MAGMAR
+	db 48, FLAREON
+	db 45, RAPIDASH
 	db -1 ; end
 
 JugglerGroup:
@@ -2425,17 +2425,17 @@ JugglerGroup:
 
 	; JUGGLER (2)
 	db "FRITZ@", TRAINERTYPE_NORMAL
-	db 37, MR__MIME
-	db 37, MAGMAR
-	db 37, MACHOKE
+	db 43, MR__MIME
+	db 44, MAGMAR
+	db 43, MACHOKE
 	db -1 ; end
 
 	; JUGGLER (3)
 	db "HORTON@", TRAINERTYPE_NORMAL
-	db 41, ELECTRODE
-	db 41, MR__MIME
-	db 41, ELECTRODE
-	db 41, MACHAMP
+	db 45, ELECTRODE
+	db 45, MR__MIME
+	db 45, ELECTRODE
+	db 45, MACHAMP
 	db -1 ; end
 
 	; JUGGLER (4)
@@ -2656,7 +2656,7 @@ PicnickerGroup:
 
 	; PICNICKER (8)
 	db "DEBRA@", TRAINERTYPE_NORMAL
-	db 41, SEAKING
+	db 51, SEAKING
 	db -1 ; end
 
 	; PICNICKER (9)
@@ -3044,7 +3044,7 @@ PokefanMGroup:
 
 	; POKEFANM (9)
 	db "COLIN@", TRAINERTYPE_ITEM
-	db 39, DELIBIRD,   BERRY
+	db 50, DELIBIRD,   BERRY
 	db -1 ; end
 
 	; POKEFANM (10)
@@ -3138,8 +3138,8 @@ TwinsGroup:
 
 	; TWINS (7)
 	db "MEG & PEG@", TRAINERTYPE_NORMAL
-	db 40, TEDDIURSA
-	db 40, PHANPY
+	db 53, TEDDIURSA
+	db 53, PHANPY
 	db -1 ; end
 
 	; TWINS (8)
