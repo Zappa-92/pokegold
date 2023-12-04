@@ -45,7 +45,7 @@ FishGroups:
 	db 100 percent,     TENTACOOL,  15
 .Ocean_Good:
 	db  35 percent,     MAGIKARP,   28
-	db  70 percent,     TENTACOOL,  28
+	db  70 percent,     CHINCHOU,   28
 	db  90 percent + 1, CHINCHOU,   28
 	db 100 percent,     time_group 2
 .Ocean_Super:
