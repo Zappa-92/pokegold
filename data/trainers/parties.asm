@@ -594,19 +594,19 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (10)
 	db "BORIS@", TRAINERTYPE_NORMAL
-	db 40, DODRIO
-	db 38, XATU
-	db 42, DELIBIRD
+	db 48, DODRIO
+	db 48, XATU
+	db 52, DELIBIRD
 	db -1 ; end
 
 	; BIRD_KEEPER (11)
 	db "BOB@", TRAINERTYPE_NORMAL
-	db 46, MANTINE
+	db 54, MANTINE
 	db -1 ; end
 
 	; BIRD_KEEPER (12)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 50, ZAPDOS
+	db 55, ZAPDOS
 	db -1 ; end
 
 	; BIRD_KEEPER (13)
@@ -618,7 +618,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (14)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 55, ZAPDOS
+	db 62, ZAPDOS
 	db -1 ; end
 
 	; BIRD_KEEPER (15)
@@ -634,7 +634,7 @@ BirdKeeperGroup:
 
 	; BIRD_KEEPER (17)
 	db "JOSE@", TRAINERTYPE_NORMAL
-	db 60, ZAPDOS
+	db 68, ZAPDOS
 	db -1 ; end
 
 	; BIRD_KEEPER (18)
@@ -2290,7 +2290,7 @@ BikerGroup:
 
 	; BIKER (3)
 	db "DWAYNE@", TRAINERTYPE_NORMAL
-	db 34, KOFFING
+	db 34, WEEZING
 	db 36, HAUNTER
 	db 36, KANGASKHAN
 	db 38, WEEZING
@@ -2309,9 +2309,9 @@ BikerGroup:
 
 	; BIKER (6)
 	db "CHARLES@", TRAINERTYPE_NORMAL
-	db 38, HITMONLEE
-	db 38, CHARMELEON
-	db 38, WEEZING
+	db 48, HITMONLEE
+	db 48, WEEZING
+	db 48, CHARIZARD
 	db -1 ; end
 
 	; BIKER (7)
@@ -2321,16 +2321,16 @@ BikerGroup:
 
 	; BIKER (8)
 	db "JOEL@", TRAINERTYPE_NORMAL
-	db 40, MAGMAR
-	db 40, ELECTABUZZ
-	db 40, PINSIR
+	db 50, MAGMAR
+	db 50, ELECTABUZZ
+	db 50, PINSIR
 	db -1 ; end
 
 	; BIKER (9)
 	db "GLENN@", TRAINERTYPE_NORMAL
-	db 36, KOFFING
-	db 38, MAGMAR
-	db 40, SUNFLORA
+	db 46, WEEZING
+	db 48, MAGMAR
+	db 50, SUNFLORA
 	db -1 ; end
 
 BlaineGroup:
