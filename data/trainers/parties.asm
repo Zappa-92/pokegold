@@ -1543,9 +1543,9 @@ FisherGroup:
 
 	; FISHER (4)
 	db "KYLE@", TRAINERTYPE_NORMAL
-	db 36, SEAKING
-	db 40, POLITOED
-	db 40, OCTILLERY
+	db 46, SEAKING
+	db 50, POLITOED
+	db 50, OCTILLERY
 	db -1 ; end
 
 	; FISHER (5)
