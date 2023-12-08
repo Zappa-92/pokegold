@@ -406,13 +406,13 @@ YoungsterGroup:
 
 	; YOUNGSTER (11)
 	db "OWEN@", TRAINERTYPE_NORMAL
-	db 45, ARCANINE
+	db 59, ARCANINE
 	db -1 ; end
 
 	; YOUNGSTER (12)
 	db "JASON@", TRAINERTYPE_NORMAL
-	db 43, SANDSLASH
-	db 43, CROBAT
+	db 53, SANDSLASH
+	db 56, CROBAT
 	db -1 ; end
 
 SchoolboyGroup:
@@ -1448,9 +1448,9 @@ BugCatcherGroup:
 
 	; BUG_CATCHER (3)
 	db "ED@", TRAINERTYPE_NORMAL
-	db 40, ARIADOS
-	db 40, FORRETRESS
-	db 40, SHUCKLE
+	db 51, ARIADOS
+	db 53, FORRETRESS
+	db 55, SHUCKLE
 	db -1 ; end
 
 	; BUG_CATCHER (4)
@@ -2556,15 +2556,15 @@ PsychicGroup:
 
 	; PSYCHIC_T (3)
 	db "HERMAN@", TRAINERTYPE_NORMAL
-	db 38, HYPNO
-	db 38, EXEGGUTOR
-	db 38, SLOWBRO
+	db 51, HYPNO
+	db 51, EXEGGUTOR
+	db 51, SLOWBRO
 	db -1 ; end
 
 	; PSYCHIC_T (4)
 	db "FIDEL@", TRAINERTYPE_NORMAL
-	db 43, XATU
-	db 43, ESPEON
+	db 53, XATU
+	db 56, ESPEON
 	db -1 ; end
 
 	; PSYCHIC_T (5)
@@ -2847,7 +2847,7 @@ CamperGroup:
 
 	; CAMPER (18)
 	db "JERRY@", TRAINERTYPE_NORMAL
-	db 37, SANDSLASH
+	db 57, SANDSLASH
 	db -1 ; end
 
 	; CAMPER (19)
