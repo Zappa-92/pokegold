@@ -1617,9 +1617,9 @@ FisherGroup:
 
 	; FISHER (15)
 	db "BARNEY@", TRAINERTYPE_NORMAL
-	db 40, GYARADOS
-	db 40, GYARADOS
-	db 40, GYARADOS
+	db 45, GYARADOS
+	db 50, GYARADOS
+	db 55, GYARADOS
 	db -1 ; end
 
 	; FISHER (16)
