@@ -1671,8 +1671,8 @@ FisherGroup:
 SwimmerMGroup:
 	; SWIMMERM (1)
 	db "HAROLD@", TRAINERTYPE_NORMAL
-	db 42, REMORAID
-	db 40, SEADRA
+	db 57, REMORAID
+	db 55, SEADRA
 	db -1 ; end
 
 	; SWIMMERM (2)
@@ -1757,16 +1757,16 @@ SwimmerMGroup:
 
 	; SWIMMERM (14)
 	db "JEROME@", TRAINERTYPE_NORMAL
-	db 32, SEADRA
-	db 28, TENTACOOL
-	db 38, TENTACRUEL
-	db 36, KINGDRA
+	db 52, STARMIE
+	db 55, QUAGSIRE
+	db 58, TENTACRUEL
+	db 56, KINGDRA
 	db -1 ; end
 
 	; SWIMMERM (15)
 	db "TUCKER@", TRAINERTYPE_NORMAL
-	db 40, SHELLDER
-	db 44, CLOYSTER
+	db 60, SHELLDER
+	db 56, CLOYSTER
 	db -1 ; end
 
 	; SWIMMERM (16)
@@ -1873,7 +1873,7 @@ SwimmerFGroup:
 
 	; SWIMMERF (12)
 	db "DAWN@", TRAINERTYPE_NORMAL
-	db 43, SEAKING
+	db 59, SEAKING
 	db -1 ; end
 
 	; SWIMMERF (13)
@@ -1883,9 +1883,9 @@ SwimmerFGroup:
 
 	; SWIMMERF (14)
 	db "NICOLE@", TRAINERTYPE_NORMAL
-	db 37, MARILL
-	db 37, AZUMARILL
-	db 40, LAPRAS
+	db 54, MARILL
+	db 54, AZUMARILL
+	db 58, LAPRAS
 	db -1 ; end
 
 	; SWIMMERF (15)
