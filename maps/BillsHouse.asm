@@ -37,7 +37,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal LICKITUNG, .WrongPokemon
+	ifnotequal TOGETIC, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
 	sjump .ShowedLickitung
@@ -51,7 +51,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal ODDISH, .WrongPokemon
+	ifnotequal SUNFLORA, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
 	sjump .ShowedOddish
@@ -65,7 +65,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal STARYU, .WrongPokemon
+	ifnotequal CORSOLA, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_STARYU_TO_BILLS_GRANDPA
 	sjump .ShowedStaryu
@@ -81,7 +81,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal GROWLITHE, .WrongPokemon
+	ifnotequal SLUGMA, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
 	sjump .ShowedGrowlitheVulpix
@@ -95,7 +95,7 @@ BillsGrandpa:
 	scall .ExcitedToSee
 	special BillsGrandfather
 	iffalse .SaidNo
-	ifnotequal VULPIX, .WrongPokemon
+	ifnotequal HOUNDOUR, .WrongPokemon
 	scall .CorrectPokemon
 	setevent EVENT_SHOWED_GROWLITHE_VULPIX_TO_BILLS_GRANDPA
 	sjump .ShowedGrowlitheVulpix
@@ -283,32 +283,31 @@ BillsGrandpaLickitungText:
 	text "My grandson BILL"
 	line "told me about a"
 
-	para "#MON that has a"
-	line "long tongue."
+	para "#MON that looks"
+	line "like a spiky egg."
+
+	para "I like to see"
+	line "it's evolved form."
 	done
 
 BillsGrandpaOddishText:
 	text "Ah, my grandson"
 	line "mentioned a round,"
 
-	para "green #MON that"
-	line "has leaves growing"
-	cont "on its head."
+	para "faced #MON that"
+	line "looks like a"
+	cont "sunflower."
 	done
 
 BillsGrandpaStaryuText:
 	text "Do you know of a"
 	line "sea #MON that"
 
-	para "has a red sphere"
-	line "in its body?"
+	para "has a rocky body"
+	line "and horns?"
 
-	para "You know, the one"
-	line "that's shaped like"
-	cont "a star?"
-
-	para "I heard that it"
-	line "appears at night."
+	para "Like those things"
+	line "in tropical reefs"
 
 	para "I would surely"
 	line "like to see it."
@@ -318,21 +317,24 @@ BillsGrandpaGrowlitheText:
 	text "BILL told me about"
 	line "a #MON that is"
 
-	para "very loyal to its"
-	line "trainer."
+	para "very hot"
+	line "and also slow."
 
 	para "It's supposed to"
-	line "ROAR well."
+	line "be very slimy"
+	con "as well."
 	done
 
 BillsGrandpaVulpixText:
 	text "I heard about a"
-	line "cute #MON that"
-	cont "has six tails."
+	line "scary #MON that"
+	cont "looks from hell."
 
-	para "I would love to"
-	line "hug a cute #MON"
-	cont "like that."
+	para "It breathes fire,"
+	line "and when evolves,"
+	cont "it has satanic"
+	cont "horns and a spiky"
+	cont "and pointy tail."
 	done
 
 BillsGrandpaPichuText:
