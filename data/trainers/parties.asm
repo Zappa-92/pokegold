@@ -1890,8 +1890,8 @@ SwimmerFGroup:
 
 	; SWIMMERF (15)
 	db "LORI@", TRAINERTYPE_NORMAL
-	db 40, STARMIE
-	db 40, KABUTOPS
+	db 53, STARMIE
+	db 54, KABUTOPS
 	db -1 ; end
 
 	; SWIMMERF (16)
