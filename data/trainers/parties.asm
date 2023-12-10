@@ -2186,16 +2186,16 @@ HikerGroup:
 
 	; HIKER (7)
 	db "ERIK@", TRAINERTYPE_NORMAL
-	db 31, MACHOKE
-	db 34, MAROWAK
-	db 34, CLOYSTER
+	db 43, MACHOKE
+	db 45, MAROWAK
+	db 46, CLOYSTER
 	db -1 ; end
 
 	; HIKER (8)
 	db "MICHAEL@", TRAINERTYPE_NORMAL
-	db 32, ARCANINE
-	db 32, OCTILLERY
-	db 32, GOLEM
+	db 46, ARCANINE
+	db 44, OCTILLERY
+	db 44, GOLEM
 	db -1 ; end
 
 	; HIKER (9)
