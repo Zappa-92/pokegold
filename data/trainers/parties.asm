@@ -859,9 +859,9 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (16)
 	db "SEAN@", TRAINERTYPE_NORMAL
-	db 45, FLAREON
-	db 45, VENUSAUR
-	db 45, TAUROS
+	db 47, FLAREON
+	db 48, VENUSAUR
+	db 49, TAUROS
 	db -1 ; end
 
 	; COOLTRAINERM (17)
@@ -1038,8 +1038,8 @@ BeautyGroup:
 
 	; BEAUTY (6)
 	db "CASSIE@", TRAINERTYPE_NORMAL
-	db 38, VILEPLUME
-	db 44, BUTTERFREE
+	db 43, VILEPLUME
+	db 48, BUTTERFREE
 	db -1 ; end
 
 	; BEAUTY (7)
@@ -1376,7 +1376,7 @@ GentlemanGroup:
 
 	; GENTLEMAN (2)
 	db "EDWARD@", TRAINERTYPE_NORMAL
-	db 43, PERSIAN
+	db 53, PERSIAN
 	db -1 ; end
 
 	; GENTLEMAN (3)
@@ -1595,10 +1595,10 @@ FisherGroup:
 
 	; FISHER (12)
 	db "JONAH@", TRAINERTYPE_NORMAL
-	db 32, CLOYSTER
-	db 37, OCTILLERY
-	db 32, REMORAID
-	db 37, POLIWRATH
+	db 43, CLOYSTER
+	db 45, OCTILLERY
+	db 43, REMORAID
+	db 45, POLIWRATH
 	db -1 ; end
 
 	; FISHER (13)
@@ -1958,8 +1958,8 @@ SailorGroup:
 
 	; SAILOR (7)
 	db "GARRETT@", TRAINERTYPE_NORMAL
-	db 43, KINGLER
-	db 43, CLOYSTER
+	db 50, KINGLER
+	db 50, CLOYSTER
 	db -1 ; end
 
 	; SAILOR (8)
@@ -2044,9 +2044,9 @@ SuperNerdGroup:
 
 	; SUPER_NERD (9)
 	db "SHAWN@", TRAINERTYPE_NORMAL
-	db 39, MAGNETON
-	db 42, MUK
-	db 39, DITTO
+	db 47, MAGNETON
+	db 46, MUK
+	db 54, DITTO
 	db -1 ; end
 
 	; SUPER_NERD (10)
@@ -2612,8 +2612,8 @@ PsychicGroup:
 
 	; PSYCHIC_T (12)
 	db "RODNEY@", TRAINERTYPE_NORMAL
-	db 37, DROWZEE
-	db 42, HYPNO
+	db 47, DROWZEE
+	db 48, HYPNO
 	db -1 ; end
 
 PicnickerGroup:
