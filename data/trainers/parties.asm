@@ -2508,9 +2508,9 @@ BlackbeltGroup:
 
 	; BLACKBELT_T (9)
 	db "WAI@", TRAINERTYPE_NORMAL
-	db 37, MACHOKE
-	db 39, HERACROSS
-	db 43, POLIWRATH
+	db 43, MACHOKE
+	db 44, HERACROSS
+	db 45, POLIWRATH
 	db -1 ; end
 
 ExecutiveMGroup:
