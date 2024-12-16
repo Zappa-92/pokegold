@@ -2399,8 +2399,8 @@ FirebreatherGroup:
 
 	; FIREBREATHER (6)
 	db "WALT@", TRAINERTYPE_NORMAL
-	db 16, CYNDAQUIL
-	db 19, MAGMAR
+	db 24, CYNDAQUIL
+	db 23, MAGMAR
 	db -1 ; end
 
 	; FIREBREATHER (7)
