@@ -322,7 +322,7 @@ BillsGrandpaGrowlitheText:
 
 	para "It's supposed to"
 	line "be very slimy"
-	con "as well."
+	cont "as well."
 	done
 
 BillsGrandpaVulpixText:
