@@ -2750,9 +2750,9 @@ CamperGroup:
 
 	; CAMPER (3)
 	db "IVAN@", TRAINERTYPE_NORMAL
-	db 15, DIGLETT
-	db 15, ZUBAT
-	db 15, VULPIX
+	db 19, DIGLETT
+	db 19, ZUBAT
+	db 21, VULPIX
 	db -1 ; end
 
 	; CAMPER (4)
